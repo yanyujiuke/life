@@ -1,11 +1,11 @@
 package ws
 
 import (
+	"github.com/flipped-aurora/ws/core/biz"
+	"github.com/flipped-aurora/ws/core/data"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"nhooyr.io/websocket"
-	"zkk/ws/core/biz"
-	"zkk/ws/core/data"
 )
 
 type wsPlugin struct {
